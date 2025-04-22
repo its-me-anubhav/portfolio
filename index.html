@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio Website</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/65da1e8ec4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/real logo.jpg" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+          <div class="header-text">
+           <p>Software Engineer</p>
+           <h1>Hey, I am <span>Anubhav</span> <br>from India</h1>
+          </div>
+      </div>
+  </div>
+                     <!-- about  -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Images/profile-pic (5).png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>
+            I’m Anubhav, a final-year BTech student passionate about software development 
+            and solving real-world problems through code. With a strong foundation in Data
+             Structures and Algorithms (DSA) and hands-on experience in full-stack web development, 
+             I specialize in building efficient, scalable, and user-centric applications. 
+             My recent projects include an AI-powered Income Expense Tracker using Next.js,
+              Inngest, and React Email, and an e-commerce platform called Carpet Mantra, 
+              built with React and integrated with secure payment gateways. I’m skilled in
+               HTML, CSS, JavaScript, Tailwind CSS, React.js, and Next.js, and continuously
+                exploring new tools and technologies. Eager to learn, adapt, and contribute
+                 to impactful projects, I’m looking for opportunities that challenge me and 
+                 help me grow as a developer.
+          </p>
+          
+             <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Full Stack Web Development</span><br>Experienced with React.js, Next.js, Tailwind CSS, HTML, CSS, and JavaScript</li>
+                <li><span>API Integration & Automation</span><br>Integrated RESTful APIs, OpenWeather API, payment services, and automation tools (e.g., Inngest)</li>
+                <li><span>Problem Solving</span><br>4★ on HackerRank, strong in C, C++, JavaScript, and DSA concepts</li>
+                <li><span>Version Control</span><br>Proficient with Git and GitHub for versioning and team collaboration</li>
+                <li><span>Continuous Learning</span><br>C++ certified (Coding Ninjas) and always evolving with new technologies</li>
+              </ul>
+              
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Project: Income Expense Tracker (2025)</span><br>
+                  Developed a full-stack personal finance app using Next.js. Features include authentication, AI-based receipt scanning, auto-categorization, recurring transactions, and budget alerts. Integrated Inngest for background jobs and React Email for notifications.
+                </li>
+                <li><span>Project: Carpet Mantra E-Commerce WebApp (2024)</span><br>
+                  Built a scalable React-based e-commerce website for selling carpets. Implemented secure payment gateway, responsive UI, routing with React Router, and performance optimizations for better UX.
+                </li>
+                <li><span>Freelance & Personal Projects</span><br>
+                  Continuously developing personal projects to explore new technologies like APIs, automation tools, and full-stack workflows.
+                </li>
+              </ul>
+              
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021 - Present</span><br>Currently pursuing B.Tech in Computer Science from AKTU University, maintaining a CGPA of 7.1</li>
+                <li><span>2019 - 2021</span><br>Completed 12th Standard (Science) from UP Board with a percentage of 72.2%</li>
+                <li><span>2017 - 2019</span><br>Completed 10th Standard from UP Board with a percentage of 85.83%</li>
+              </ul>              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+              <!-- services -->
+    <div id="services">
+       <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Experienced in building full-stack web applications using React.js, Next.js, and Tailwind CSS. 
+              Developed responsive, scalable platforms like an e-commerce web app with secure payment integration 
+              and a financial tracker with automation features. Focused on clean UI, performance, and modern development practices.
+            </p>
+          </div>
+          
+          <div>
+            <i class="fa-solid fa-lightbulb"></i>
+            <h2>Problem Solving</h2>
+            <p>
+              4★ on HackerRank in Problem Solving. Strong command over DSA with proficiency in C, C++, and JavaScript. 
+              Skilled in breaking down complex problems and building logical, optimized solutions. Applied these skills in real-world apps and coding challenges.
+            </p>
+          </div>
+          
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Features & Automation</h2>
+            <p>
+              Designed and implemented smart app features such as AI-based receipt scanning, automated expense tracking, 
+              and background jobs using Inngest. Experience in building apps that adapt to user needs and handle data intelligently with modern tools.
+            </p>
+          </div>
+        </div>
+        
+       </div>
+    </div>   
+                 <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/work1.png" alt="">
+            <div class="layer">
+              <h3>Income Expense Tracker</h3>
+              <p>Track. Save. Spend Smartly. Effortlessly.
+                AI-powered personal finance made simple</p>
+              <a href="https://expense-tracker-self-beta.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work2.jpeg" alt="">
+            <div class="layer">
+              <h3>Carpet Mantra</h3>
+                <p>
+                A responsive e-commerce web app for browsing and purchasing carpets online. 
+                Built with React.js and integrated with secure payment gateway, optimized 
+                for performance and seamless user experience.
+              </p>
+              <a href="https://github.com/its-me-anubhav/carpet-mantra-ecommerce.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work-3.png" alt="">
+            <div class="layer">
+              <h3>Scriastra Project</h3>
+              <p>Developed a cutting-edge platform for managing and organizing creative projects, integrating
+              task management, collaboration tools, and real-time updates to streamline team workflows.
+              Built using React, Node.js, and MongoDB for scalability and performance.</p>
+              <a href="https://github.com/its-me-anubhav/SciAstra-Education-Private-Limited.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div> 
+        <!-- <a href="#contact" class="btn">See more</a>  -->
+      </div>
+      
+    </div>
+               <!-- contect -->
+   <div class="contact-message">
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p> <i class="fa-solid fa-envelope"></i>anubhavshakya543@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>6306459872</p>
+            <div class="social-icon">
+              <a href="https://www.linkedin.com/in/anubhav-shakya-346360243/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://x.com/Anubhavshakya63"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/its-me-anubhav"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Images/Anubhav'sResume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet"> 
+             <input type="text" name="Name" placeholder="Your name" required>
+             <input type="email" name="Email" placeholder="Your email" required>
+             <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Anubhav. Made with <i class="fa-solid fa-heart"></i> by Anubhav Shakya</p>
+      </div>
+    </div>
+  </div>
+
+    <script>
+       var tablinks =document.getElementsByClassName("tab-links");
+       var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var Sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+      Sidemenu.style.right="0";
+      }
+      function closemenu(){
+        Sidemenu.style.right="-200px"
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzEvgtjmvS0_WaXzW4JsmcxOlRzi8FhqBcJhV2_KtrPgFOCh-BG1hDPIULl8q1Ve33TzA/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg');
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+            msg.innerHTML="Your Message has been sent Successfully."
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
