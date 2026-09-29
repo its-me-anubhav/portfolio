@@ -245,8 +245,8 @@ export default function Portfolio() {
                     <li>Integrated Gemini AI for automated receipt processing and expense categorization, reducing manual data entry.</li>
                     <li>Implemented Inngest for scheduled reports and background jobs, with a modular architecture for reliability and scalability.</li>
                   </ul>
-                  <motion.a whileHover={{ x: 4 }} href="https://expense-tracker-self-beta.vercel.app/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 mt-4 text-sm text-white hover:text-accent transition-colors font-medium">
-                    View Live App <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  <motion.a whileHover={{ x: 4 }} href="https://github.com/its-me-anubhav/expense-tracker" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 mt-4 text-sm text-white hover:text-accent transition-colors font-medium">
+                    View Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   </motion.a>
                 </div>
               </motion.div>
