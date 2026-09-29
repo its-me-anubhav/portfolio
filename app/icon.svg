@@ -1,0 +1,5 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" fill="#0f172a" rx="48"/>
+  <text x="30" y="160" font-family="Arial, sans-serif" font-weight="900" font-size="95" fill="#fbbf24">//</text>
+  <text x="95" y="160" font-family="Arial, sans-serif" font-weight="900" font-size="95" fill="#ffffff">AS</text>
+</svg>
